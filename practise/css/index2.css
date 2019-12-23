@@ -6,8 +6,6 @@
 .wrap{
     width: 100%;
     height: 100%;
-    margin-top: 50px;
-    margin-left: 50px;
     background-color: #4180d9;
     /* Safari */
     display: -webkit-flex;
@@ -17,21 +15,20 @@
 }
 .wrap .box{
     width:100%;
-    line-height: 115px;
     text-align: center;
     flex:auto;
 }
 
-@media (max-width:800px){
+/* @media (max-width:800px){
     .wrap .box{
         width: 175px;
         line-height: 175px;
-    }
-    .wrap .box img{
+    } */
+    /* .wrap .box img{
         width: 10%;
         height: 25px;
     }
-} 
+}  */
 
 .wrap .box .image{
     width: 100%;
